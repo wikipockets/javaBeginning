@@ -28,6 +28,6 @@ public class CompoundInterest {
          A = P*Math.pow(1+(rP/n),n*t);
          
          
-         System.out.printf("The Amount of money after " + t + " years will be: $%,.2f" + A );      
+         System.out.printf("The Amount of money after " + t + " years will be: $%,.2f",A );      
       }
 }
